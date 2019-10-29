@@ -1,0 +1,10 @@
+applications:
+- name:      bluemix-todo-node01
+  host:      bluemix-todo-node01
+  path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  disk_quota: 1024M
+  services:
+  - todo-db 
